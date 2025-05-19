@@ -2,13 +2,13 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 40px;
-  background-color: #f9f9f9;
+  background-color: #383434;
 }
 
 h1 {
   font-size: 3em;
   margin-bottom: 50px;
-  color: #222;
+  color: #f3f3f3;
 }
 
 .member {
@@ -40,8 +40,45 @@ h1 {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+.pink-bg {
+  background-color: #ffc0cb;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+.blue-bg {
+  background-color: #add8e6; /* light blue */
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
 
+.yellow-bg {
+  background-color: #fff8b0; /* soft yellow */
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
 
-h2, h3, h4, h5 {
-  color: #333;
+.red-bg {
+  background-color: #e65151; /* soft red */
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.member h2,
+.member h3,
+.member h4,
+.member h5 {
+  margin: 0 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+}
+.member .description {
+  color: white;
+  font-size: 1em;
+  margin: 0 20px;
+  font-weight: bold;
 }
