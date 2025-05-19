@@ -1,9 +1,51 @@
+
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ← This centers the h1 and logo together */
+  gap: 20px; /* ← Adjust spacing between h1 and logo */
+  background: linear-gradient(135deg, #646062, #161615); 
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+}
+
+
+.logo {
+  height: 180px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.header-content h1 {
+  font-size: 3.5em;
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+
+header h1 {
+  font-size: 3.5em;
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
 body {
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 40px;
-  background-color: #383434;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
 }
+
 
 h1 {
   font-size: 3em;
