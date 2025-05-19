@@ -83,7 +83,7 @@ h1 {
 }
 
 .pink-bg {
-  background-color: #ffc0cb;
+  background-color: #ec9daa;
   padding: 20px;
   border-radius: 12px;
   margin: 20px 0;
@@ -140,3 +140,19 @@ h1 {
 .member-button:hover {
   background-color: #b41e8f;
 }
+.back-button {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 8px 16px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #333;
+}
+
