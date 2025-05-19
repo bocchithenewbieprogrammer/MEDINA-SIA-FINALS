@@ -3,8 +3,8 @@
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: center; /* ← This centers the h1 and logo together */
-  gap: 20px; /* ← Adjust spacing between h1 and logo */
+  justify-content: center; 
+  gap: 20px; 
   background: linear-gradient(135deg, #646062, #161615); 
   padding: 30px 40px;
   border-radius: 16px;
@@ -89,21 +89,21 @@ h1 {
   margin: 20px 0;
 }
 .blue-bg {
-  background-color: #add8e6; /* light blue */
+  background-color: #3b91ad; 
   padding: 20px;
   border-radius: 12px;
   margin: 20px 0;
 }
 
 .yellow-bg {
-  background-color: #fff8b0; /* soft yellow */
+  background-color: #b6ae55; 
   padding: 20px;
   border-radius: 12px;
   margin: 20px 0;
 }
 
 .red-bg {
-  background-color: #e65151; /* soft red */
+  background-color: #e65151; 
   padding: 20px;
   border-radius: 12px;
   margin: 20px 0;
@@ -123,4 +123,20 @@ h1 {
   font-size: 1em;
   margin: 0 20px;
   font-weight: bold;
+}
+.member-button {
+  display: inline-block;
+  margin: 30px 0 20px 30px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #8a3e91;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.member-button:hover {
+  background-color: #b41e8f;
 }
