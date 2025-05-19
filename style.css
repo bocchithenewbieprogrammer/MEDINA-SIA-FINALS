@@ -6,10 +6,12 @@
   justify-content: center; 
   gap: 20px; 
   background: linear-gradient(135deg, #646062, #161615); 
-  padding: 30px 40px;
-  border-radius: 16px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
   margin-bottom: 40px;
+max-width: 800px;   /* width control */
+  margin: 30px auto;  /* centers horizontally */
+  padding: 20px;
+  border-radius: 12px;
 }
 
 
@@ -168,5 +170,14 @@ h1 {
   min-height: 100%;
   z-index: -1;
   object-fit: cover;
-  opacity: 10; /* adjust transparency to your liking */
+  opacity: 10; 
+}
+.member.pink-bg, 
+.member.blue-bg, 
+.member.yellow-bg, 
+.member.red-bg {
+  max-width: 800px;   
+  margin: 30px auto;  
+  padding: 20px;
+  border-radius: 12px;
 }
